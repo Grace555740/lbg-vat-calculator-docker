@@ -1,7 +1,7 @@
 pipeline{
  environment {
  registry = "grace5555/vatcal"
-        registryCredentials = "dockerhub_id"
+        registryCredentials = "dockerhub-id"
         dockerImage = ""
     }
     agent any
